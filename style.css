@@ -1,0 +1,40 @@
+body {
+    background-color: #ada2a2;
+    font-family: 'Arial', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.clock-container {
+    background-color: #515351;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.8);
+    text-align: center;
+}
+
+.clock-title {
+    color: rgb(241, 241, 246);
+    font-size: 3em;
+    margin-bottom: 30px;
+}
+
+.time {
+    font-size: 4em;
+    color: #ed8d98;
+}
+
+.ampm {
+    font-size: 1em;
+    color: #afa5b8;
+    margin-left: 10px;
+}
+
+.date {
+    font-size: 1.2em;
+    color: #ded8da;
+    margin-top: 10px;
+}
